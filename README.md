@@ -1,5 +1,8 @@
 # Skin_cancer_predictor
 
+This project used this data set - 
+https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+
 ### Approach 1 : LSTM
 
 he first LSTM layer is initialized with 128 units and takes as input a sequence of data with a shape defined by the dimensions of X_train. The return_sequences=True parameter ensures that the output of this layer is also a sequence, which is important for feeding the subsequent LSTM layers.
