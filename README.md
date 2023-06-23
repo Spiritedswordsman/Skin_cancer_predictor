@@ -1,6 +1,6 @@
 # Skin_cancer_predictor
 
-This project used this data set - 
+This project uses this data set - 
 https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
 ### Approach 1 : LSTM
