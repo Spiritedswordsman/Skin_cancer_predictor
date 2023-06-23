@@ -36,7 +36,7 @@ Non-trainable params: 0
 ```
 
 
-Accuracy  -  71.64%
+Accuracy  -  70.99%
 
 
 ### Approach 2 : CNN
