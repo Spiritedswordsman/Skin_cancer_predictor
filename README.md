@@ -5,7 +5,7 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
 ### Approach 1 : LSTM
 
-he first LSTM layer is initialized with 128 units and takes as input a sequence of data with a shape defined by the dimensions of X_train. The return_sequences=True parameter ensures that the output of this layer is also a sequence, which is important for feeding the subsequent LSTM layers.
+The first LSTM layer is initialized with 128 units and takes as input a sequence of data with a shape defined by the dimensions of X_train. The return_sequences=True parameter ensures that the output of this layer is also a sequence, which is important for feeding the subsequent LSTM layers.
 A dropout layer is added after the first LSTM layer with a dropout rate of 0.5. Dropout is a regularization technique that randomly sets a fraction of input units to 0 during training, which helps prevent overfitting and improves generalization.
 The second LSTM layer has 64 units and also returns a sequence. It is followed by another dropout layer.
 The third LSTM layer has 32 units and does not return a sequence, meaning it produces a single output for the given input sequence.
